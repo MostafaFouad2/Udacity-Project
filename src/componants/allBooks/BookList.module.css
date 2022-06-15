@@ -1,0 +1,44 @@
+.list{
+    width: 160px;
+    height: 110px;
+    padding: 5px 10px;
+    border-radius: 5%;
+    background-color:rgba(255, 251, 251, 0.95);
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .itemlist{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .itemlist input{
+    width: 15px;
+    height: 15px;
+  }
+
+  .itemlist:hover{
+    background-color: rgb(0, 162, 255);
+  }
+
+  .but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(29, 175, 90);
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+  }
