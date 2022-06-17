@@ -15,7 +15,7 @@ const BookItem = (props) => {
           </div>
           <div>
               <p>{props.Title}</p>
-              <span>{props.Authors}</span>
+              <span>{props.Authors.join(" , ")}</span>
           </div>
       </div>
   );
